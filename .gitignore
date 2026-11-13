@@ -63,3 +63,7 @@ test_request.py
 # A bare `*.json` previously lived here. It silently excluded every new JSON
 # config (package.json, tsconfig.json, any fixture), so it is scoped instead.
 backend/data/**/*.json
+
+# Excluded presentations / local files
+route_resillence_ppt.pdf
+
