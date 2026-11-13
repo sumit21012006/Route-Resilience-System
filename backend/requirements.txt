@@ -1,0 +1,7 @@
+# Full install (core + raster + ML). Kept for backwards compatibility.
+#
+# Prefer a narrower set:
+#   requirements-core.txt    graph + simulation + API      (no PyTorch)
+#   requirements-raster.txt  core + rasterio/scikit-image  (enables /simulate/flood)
+#   requirements-ml.txt      everything (needed for ENABLE_ML=true)
+-r requirements-ml.txt

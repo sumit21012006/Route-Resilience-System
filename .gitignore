@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+
+# Env
+.env
+*.env.local
+
+# Data (large files — use DVC or LFS)
+backend/data/rasters/
+backend/data/masks/
+backend/data/checkpoints/*.pth
+backend/data/cache/
+backend/data/graphs/osm_fallback.gpickle
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+
+# Build artifacts
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+
+# Docker
+*.tar
+
+# Datasets
+backend/data/spacenet_roads/
+
+# Large / derived artifacts. NOTE: backend/data/ is ignored EXCEPT for its
+# README and the small CSV fixtures, which must be reproducible additions
+# rather than silently-missing inputs (see backend/data/README.md).
+backend/data/*
+!backend/data/README.md
+!backend/data/census/
+backend/data/census/*
+!backend/data/infrastructure/
+backend/data/infrastructure/*
+/data/
+/cache/
+backend/cache/*
+!backend/cache/befdaed17dcd4b1967a71e322ded5946f4da89e1.json
+*.png
+*.tif
+scratch.py
+test_request.py
+
+# A bare `*.json` previously lived here. It silently excluded every new JSON
+# config (package.json, tsconfig.json, any fixture), so it is scoped instead.
+backend/data/**/*.json
