@@ -24,7 +24,6 @@ Built for ISRO NNRMS — Problem Statement PS4 | 30-hour hackathon
 - [Known Limitations](#known-limitations)
 - [Quick Start](#quick-start)
 - [Tech Stack](#tech-stack)
-- [Author](#Author)
 
 ---
 
@@ -380,15 +379,4 @@ Results are decision-support research output, not operational directives.
 | Geospatial | OSMnx, NetworkX, GeoPandas, Rasterio, Shapely |
 | APIs | Bhuvan WMS, Groq API (LLaMA-3) |
 
----
-## Author
 
-**Shriram Baskaran**
-
-Computer Science Student | AI/ML Enthusiast | Aspiring Machine Learning Engineer
-
-- GitHub: https://github.com/Shriram28Baskar
-- LinkedIn: https://www.linkedin.com/in/shriram-baskaran/
-- Email: shrirambaskaran21@gmail.com
-
-Passionate about building AI-powered systems, Machine Learning solutions, and real-world applications that create meaningful impact.
